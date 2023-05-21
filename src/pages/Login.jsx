@@ -4,8 +4,8 @@ import Github from "../img/github.png";
 // "https://capestonebackend.onrender.com"
 const Login = () => {
   const google = () => {
-    window.open("https://capestonebackend.onrender.com/auth/google", "_self");
-    // window.open("http://localhost:5000/auth/google", "_self");
+     window.open("https://capestonebackend.onrender.com/auth/google", "_self");
+    //window.open("http://localhost:5000/auth/google", "_self");
   };
 
   const github = () => {
