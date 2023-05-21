@@ -14,7 +14,7 @@ function App() {
   useEffect(() => {
     const getUser = () => {
       //fetch("http://localhost:5000/auth/login/success", {
-      fetch("https://capestonebackend.onrender.com/auth/login/success", {
+      fetch("http://capestonebackend.onrender.com/auth/login/success", {
         method: "GET",
         credentials: "include",
         headers: {
