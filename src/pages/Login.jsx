@@ -1,14 +1,16 @@
 import Google from "../img/google.png";
 // import Facebook from "../img/facebook.png";
 import Github from "../img/github.png";
-
+// "https://capestonebackend.onrender.com"
 const Login = () => {
   const google = () => {
-    window.open("http://localhost:5000/auth/google", "_self");
+    window.open("https://capestonebackend.onrender.com/auth/google", "_self");
+    // window.open("http://localhost:5000/auth/google", "_self");
   };
 
   const github = () => {
-    window.open("http://localhost:5000/auth/github", "_self");
+    window.open("https://capestonebackend.onrender.com/auth/github", "_self");
+    // window.open("http://localhost:5000/auth/github", "_self");
   };
 
   // const facebook = () => {

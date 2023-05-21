@@ -8,11 +8,13 @@ import Login from "./pages/Login";
 import Post from "./pages/Post";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
+// "https://capestonebackend.onrender.com"
 function App() {
   const [user, setUser] = useState(false);
   useEffect(() => {
     const getUser = () => {
-      fetch("http://localhost:5000/auth/login/success", {
+      // fetch("http://localhost:5000/auth/login/success", {
+      fetch("https://capestonebackend.onrender.com/auth/login/success", {
         method: "GET",
         credentials: "include",
         headers: {

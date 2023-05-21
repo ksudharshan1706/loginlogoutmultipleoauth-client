@@ -2,10 +2,13 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Avatar from '@mui/material/Avatar';  
 
+
+// "https://capestonebackend.onrender.com"
 const Navbar = ({user}) => {
     console.log(user)
     const logout = () => {
-        window.open("http://localhost:5000/auth/logout", "_self");
+        window.open("https://capestonebackend.onrender.com/auth/logout", "_self");
+        // window.open("http://localhost:5000/auth/logout", "_self");
       };
 
       
